@@ -1,0 +1,56 @@
+.appointment-container {
+  background-color: black;
+}
+
+form {
+  background-color: white;
+  width: 40%;
+  margin: 0 auto;
+  padding: 0 10px 0 10px;
+}
+
+form h1 {
+  padding: 1em;
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1439px) {
+  .appointment-container {
+    background-color: black;
+  }
+
+  form {
+    width: 60%;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  .appointment-container {
+    background-color: black;
+  }
+
+  form {
+    width: 95%;
+  }
+
+  form h1 {
+    font-size: 1.6em;
+    margin-top: 0;
+    padding: 0.2em 0 0 0;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .appointment-container {
+    background-color: black;
+  }
+
+  form {
+    width: 100%;
+    padding: 0;
+  }
+
+  form h1 {
+    font-size: 1.6em;
+    margin-top: 0;
+    padding: 0.2em 0 0 0;
+  }
+}

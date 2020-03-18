@@ -1,0 +1,169 @@
+.about-hero-container {
+  width: 80%;
+  background-color: black;
+  margin: 1em auto;
+  display: flex;
+}
+
+.about-image img {
+  max-width: 80%;
+}
+
+.about-info-container {
+  color: white;
+  background-color: black;
+  padding: 10px;
+  width: 100%;
+}
+
+.about-info-container h1 {
+  text-align: center;
+  font-family: "Great Vibes", cursive;
+  font-size: 3em;
+}
+
+.about-info-container p {
+  text-align: left;
+  font-size: 1.25em;
+}
+
+.appointment-box {
+  background-color: darkblue;
+  padding: 25px;
+}
+.appointment-box a {
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+  font-size: 1.25em;
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1439px) {
+  .about-hero-container {
+    width: 80%;
+    background-color: black;
+    margin: 1em auto;
+    display: flex;
+  }
+
+  .about-image {
+    margin-top: 2em;
+    width: 110%;
+  }
+
+  .about-info-container {
+    color: white;
+    background-color: black;
+    width: 100%;
+  }
+
+  .about-info-container h1 {
+    text-align: center;
+    font-family: "Great Vibes", cursive;
+    font-size: 3em;
+    padding-top: 0;
+  }
+
+  .about-info-container p {
+    text-align: left;
+    font-size: 1.25em;
+  }
+
+  .appointment-box {
+    background-color: darkblue;
+    padding: 25px;
+  }
+  .appointment-box a {
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    font-size: 1em;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  .about-hero-container {
+    width: 90%;
+    background-color: black;
+    margin: 1em auto;
+    display: flex;
+  }
+
+  .about-image {
+    margin-top: 2em;
+    width: 110%;
+  }
+
+  .about-info-container {
+    color: white;
+    background-color: black;
+    width: 100%;
+  }
+
+  .about-info-container h1 {
+    text-align: center;
+    font-family: "Great Vibes", cursive;
+    font-size: 3em;
+    padding-top: 0;
+  }
+
+  .about-info-container p {
+    text-align: left;
+    font-size: 1.25em;
+  }
+
+  .appointment-box {
+    background-color: darkblue;
+    padding: 25px;
+  }
+  .appointment-box a {
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    font-size: 1em;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .about-hero-container {
+    width: 98%;
+    background-color: black;
+    margin: 0em auto;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .about-image {
+    margin-top: 0.3em;
+    width: 98%;
+  }
+
+  .about-info-container {
+    color: white;
+    background-color: black;
+    width: 98%;
+    padding: 0 5px 0 5px;
+  }
+
+  .about-info-container h1 {
+    text-align: center;
+    font-family: "Great Vibes", cursive;
+    font-size: 1.8em;
+  }
+
+  .about-info-container p {
+    text-align: left;
+    font-size: 1.1em;
+  }
+
+  .appointment-box {
+    background-color: darkblue;
+    padding: 15px;
+  }
+  .appointment-box a {
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    font-size: 1em;
+  }
+}
